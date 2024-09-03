@@ -62,7 +62,7 @@ const App = () => {
     },
   ]
 
-  const jonathanThings [
+  const jonathanThings = [
     {
       name: "cats",
       image: "https://imgs.xkcd.com/comics/cats.png",
