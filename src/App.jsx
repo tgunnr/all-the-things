@@ -62,6 +62,14 @@ const App = () => {
     },
   ]
 
+  const jonathanThings [
+    {
+      name: "cats",
+      image: "https://imgs.xkcd.com/comics/cats.png",
+      attributes: ["evil", "fluffy", "adorable"]
+    }
+  ]
+
   const alexsThings = [
     {
       name: 'Allergy Pills',
