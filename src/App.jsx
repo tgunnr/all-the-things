@@ -62,11 +62,16 @@ const App = () => {
     },
   ]
 
-  const jonathanThings [
+  const jonathanThings = [
     {
       name: "cats",
       image: "https://imgs.xkcd.com/comics/cats.png",
       attributes: ["evil", "fluffy", "adorable"]
+    },
+    {
+      name: "beer",
+      image: "https://imgs.xkcd.com/comics/beer.png",
+      attributes: ["delicious", "refreshing"]
     }
   ]
 
