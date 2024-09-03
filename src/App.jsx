@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom'
 import ManliestThings from './pages/ManliestThings/ManliestThings'
 import StyledThings from './pages/StyledThings/StyledThings'
 import SillyThings from './pages/SillyThings/SillyThings'
+import SunnyThings from './pages/SunnyThings/SunnyThings'
 import Landing from './pages/Landing/Landing'
 
 const App = () => {
@@ -112,6 +113,11 @@ const App = () => {
         path="/the-silly-things"
         element={<SillyThings things={huntersThings} />}
       />
+      <Route
+        path="/the-sunny-things"
+        element={<SunnyThings things={sunnysThings} />}
+      />
+
     </Routes>
   )
 }
