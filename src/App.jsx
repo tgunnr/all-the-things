@@ -76,6 +76,11 @@ const App = () => {
       image: "https://imgs.xkcd.com/comics/pets.png",
       attributes: ['Helpful', 'Pet-friendly', 'Life-Saver']
     },
+    {
+      name: 'Cologne',
+      image: "https://imgs.xkcd.com/comics/cologne.png",
+      attributes: ['Smells Good', 'Fragrance', 'My scent']
+    }
   ]
 
   const sunnysThings = [
