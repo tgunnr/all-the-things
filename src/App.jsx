@@ -75,8 +75,16 @@ const App = () => {
       name: 'Allergy Pills',
       image: "https://imgs.xkcd.com/comics/pets.png",
       attributes: ['Helpful', 'Pet-friendly', 'Life-Saver']
-  },
-]
+    },
+  ]
+
+  const sunnysThings = [
+    {
+      name: 'headset',
+      image: "https://imgs.xkcd.com/comics/music.png",
+      attributes: ['sony', 'ambient aware', 'noise-cancelling']
+    },
+  ]
 
   return (
     <Routes>
